@@ -1,0 +1,327 @@
+
+/*start body====================================================================================================================*/
+.body{
+/*    background-color: #000;*/
+  
+}
+
+/*End body======================================================================================================================*/
+/*start header==================================================================================================================*/
+.body{  background-image:url(../image/100.jpg);
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.header
+{
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    top: 0%
+}
+
+.menu
+{
+background-color:rgba(154, 127, 127, 0.53); 
+    width:100%;
+    float:left;
+    padding:10px;
+    box-shadow: inset -4px -3px 12px 5px rgba(171, 79, 79, 0.31);
+}
+.logo
+{
+ margin-left:60px;
+    float:left;
+}
+.logo h1{
+    margin-top:10px;
+    text-transform: uppercase;
+    font-family:"Brush Script MT";
+    color: #949fe3;
+      text-shadow: -12px 8px 4px black;
+   
+}
+.logo h1 span{color:#d8658e;font-size: 24px;}
+
+.nav
+{
+float:none;  
+     color:#adb8fc;
+    text-transform:capitalize;/*capital */
+    margin-top: 0%;
+    font-family:forte; 
+
+}
+.nav ul
+{
+ float:left;
+    margin-left:0%;
+    font-size:18px;
+    color:#949fe3
+}
+.nav ul a
+{
+float:left;
+    list-style:none;
+    margin-left:20px;
+   text-decoration: none;
+     color:#949fe3;
+}
+
+.nav ul li:hover
+{ 
+ background:#d8658e;
+}
+.box{
+    position: absolute;
+    right:0%;
+    top: 31%;
+   
+}
+input {
+  position: relative;
+  display:inline-block;
+  box-sizing: border-box;
+  transition: .5s;
+    
+}
+input[type="text"]{
+    background: #fff;
+    border:none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius:25px 0 0 25px; 
+    margin:-1%;
+}
+input[type="submit"]{
+    position: relative;
+     border-radius: 0 25px 25px 0;
+     padding: 8px 20px;
+     border:none;
+    outline: none;
+    cursor:pointer;
+    background: #949fe3;
+    color: #fff;
+     margin: -1%;
+
+    
+}
+input[type="submit"]:hover{
+    background:#d8658e;
+}
+/*End header===========================================================================================================================*/
+
+.cont{
+    width: 1280px;
+    min-height:500px;
+    margin:7%  auto 0 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont .boxed{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.cont .boxed .imgboxed{
+    position: relative;
+}
+.cont .boxed .imgboxed img
+{
+    max-width: 100%;
+    transition: transform 2s;
+    width: 100%;
+    height: 100%
+}
+.cont .boxed:hover .imgboxed img
+{
+    transform: scale(1.2);
+}
+
+.cont .boxed .detiles
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom:10px;
+    background:rgba(251, 171, 210, 0.67);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.cont .boxed:hover .detiles
+{
+    transform: scaleY(1);
+}
+
+.cont .boxed .detiles .con
+{
+    position: absolute;
+    top: 10px;
+   padding: 15px;    
+}
+
+/*start contact US =========================================================================================================*/
+.main{
+     background-color: rgba(128, 75, 105, 0.79);
+    width: 95%;
+    height: 128%;
+    margin:8% auto 0;
+    margin-bottom: 1%;
+    margin-left: 1%;
+  
+}
+.roww{
+    float: left;
+     margin-left: 2%;
+}
+.main .control-group input{
+    padding: 15px 200px;
+     border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 6px 7px 0px #d76d95, inset -1px 10px 20px 0px #d76d95;
+    background-color:  #949fe3;
+}
+.main .control- input{
+    padding: 15px 200px;
+      border-radius: 25px 25px 25px 25px;
+    
+}
+.main .control-group textarea{
+    padding: 15px 200px;
+     border-radius: 25px 25px 25px 25px;
+    box-shadow: 3px 6px 7px 0px #d76d95, inset -1px 10px 20px 0px #d76d95;
+    background-color:  #949fe3;
+}
+.main .titel h2{
+    color: #949fe3;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.main .fontt{
+     font-size: 40px;
+    margin-top: 11%;
+    float: right;
+    margin-right: 19%;
+    
+}
+.main .fontt i:hover{
+    color: #d8658e;
+}
+.main .coco{
+    margin-top: 5%;
+    float: right;
+    margin-right: 10%;
+}
+.main .coco a:hover{
+    color: #d8658e;
+}
+.loginBox{
+    background-color:rgba(128, 75, 105, 0.79);
+   width: 98%;
+    height: 100%;
+    margin: 8% auto 0;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    text-align: center;
+    
+}
+.loginBox input{
+     border-radius: 25px 25px 25px 25px;
+}
+
+ 
+/*end contact US =============================================================================================================*/
+/*start footer=============================================================================================================================*/
+.footer 
+{
+  position: relative;
+  background-color:rgba(128, 75, 105, 0.79);
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: inset -2px 4px 19px 14px black;
+ 
+}
+.footer .foo .font img{
+      width: 50px;
+    height: 50px;
+    margin-top: -1%;
+    padding: 10px
+    
+}
+/*
+.footer .font i:hover{
+    color: #d8658e;
+}
+*/
+  .footer .foo h2 
+{
+    margin-bottom: 0;
+    font-size: 48px;
+    color:rgb(148, 159, 227);
+    font-family:"Brush Script MT";
+    margin-top: 0px;
+   text-shadow: -7px 9px 7px black;
+}
+.footer .foo hr{
+    width: 30%;
+    align-content: center;
+}
+.footer .foo p{
+    color:rgb(148, 159, 227);
+    text-align: left;
+    border-bottom: 1px solid #4c4c4c;
+     font-family:"Brush Script MT";
+    font-size: 26px;
+    margin-left: 25px;
+     text-shadow: -7px 6px 3px black;
+}
+.footer h2 span{
+    color:#d8658e; 
+}
+      .footer h2:hover
+{
+        color: #d8658e;
+}
+.footer h2 span:hover{
+    color:#949fe3; 
+}
+.footer-bottom{
+    color:#949fe3;
+    
+}
+.footer-bottom a:hover{
+    color:#d8658e;
+}
+/*End footer=================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
